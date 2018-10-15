@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "mina/yarn/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "mina-yarn"
+  spec.name          = "mina1-yarn"
   spec.version       = Mina::Yarn::VERSION
   spec.authors       = ["wootaw"]
   spec.email         = ["wootaw@gmail.com"]

@@ -19,6 +19,7 @@ This enables you to use the `yarn:install` task in your deploy script.
 ## Configuration
 
 __Important:__ The `:yarn_bin` defaults to `yarn`
+
 __Important:__ The `:yarn_options` defaults to `--production`
 
 To change `yarn_bin` add `yarn_options` in your `deploy.rb` file:
@@ -68,7 +69,3 @@ end
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the Mina::Yarn project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/mina-yarn/blob/master/CODE_OF_CONDUCT.md).
